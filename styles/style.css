@@ -322,10 +322,10 @@ fieldset {
   line-height: 90%;
 }
 
-.content__list > li:last-child:not(.content__list-item) {
+/* .content__list > li:last-child:not(.content__list-item) {
   position: sticky;
   bottom: 0;
-}
+} */
 
 .more-button {
   width: 100%;
