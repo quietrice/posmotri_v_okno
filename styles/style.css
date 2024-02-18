@@ -303,7 +303,7 @@ fieldset {
 }
 
 .content__video-card-title {
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: "Oswald", sans-serif;
   padding-left: 2px;
   text-transform: uppercase;
   font-weight: 700;
@@ -311,6 +311,7 @@ fieldset {
   line-height: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .content__video-card-description {
