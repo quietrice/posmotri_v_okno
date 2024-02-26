@@ -201,8 +201,8 @@ fieldset {
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   display: block;
   content: "";
-  width: 16px;
-  height: 16px;
+  width: 15px;
+  height: 15px;
   background-color: #fff;
 }
 
