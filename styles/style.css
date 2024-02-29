@@ -11,15 +11,16 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 100%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   width: 1140px;
-  height: 800px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -87,8 +88,6 @@ ol {
   column-gap: 30px;
   grid-template-columns: 711px 399px;
   grid-template-rows: 1fr;
-  margin-top: 133px;
-  margin-bottom: 133px;
 }
 
 .result {
@@ -136,6 +135,7 @@ fieldset {
 
 .search-form__label:has(.search-form__checkbox):hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .search-form__fieldset {
